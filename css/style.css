@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 
 body{
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
+}
+section{
+    padding-bottom: 9.5em;
 }
 
 .flex{
@@ -15,56 +16,120 @@ body{
 
 .top-banner{
     background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .half-width{
-    flex-basis: 50%;
-    max-width: 50%;
+    flex-basis: 48%;
+    max-width: 48%;
+    padding-left: 5%;
+    padding-top: 5px;
+    margin-left: 2%;
     box-sizing: border-box;
 }
 
 h1{
     font-size: 50px;
+    font-weight: 500;
 }
 
-.half-width h3{}
+.half-width h3{
+    margin: 20px 0px;
+    font-weight: 600;
+}
 
 span{
     color:#FFA500;
 }
 
-p{}
+p{
+    color: dimgrey;
+    margin: 10px 0px;
+    padding-bottom: 15px;
+}
 
-.anchor-button{}
+.anchor-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
 
-.half-width img{}
+.half-width img{
+    max-width: 100%;
+}
 
-.dnm{}
+.dbm{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: #696969;
+    font-weight: 100;
+    font-family: inherit;
+    font-size: 15px;
+    background: #f5f5f573;
+    border-radius: 5px;
+    padding: 0 5px;
+}
 
 .dream-section {
     background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 h2{
     font-size: 40px;
+    font-weight: 500;
 }
 
 .experince-section{
     background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
-.experince-section h2{
-    text-align: center;
+.experince-section>h2{
+    /* text-align: center; */
 }
 
-#Full-stack{}
+.experince-section>.flex{
+    justify-content: end;
+}
+
+.experince-section .half-width{
+    flex-basis: 45%;
+    max-width: 45%;
+    box-sizing: border-box;
+}
+
+.experince-section .box{
+    box-shadow: 5px 7px 40px grey;
+    padding-left: 2%;
+    padding-right: 3%;
+    height: 420px;
+}
+
+#Full-stack{
+    border-left: 7px solid red;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
 
 .experince-section h3{
 
+color: orange;
 }
 
-#baby-dev{}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
 
 footer{
-
+    text-align: center;
 }
