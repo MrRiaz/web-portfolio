@@ -81,6 +81,10 @@ p{
     background-position: right;
 }
 
+.dream-section .half-width p{
+    padding-right: 5em;
+}
+
 h2{
     font-size: 40px;
     font-weight: 500;
